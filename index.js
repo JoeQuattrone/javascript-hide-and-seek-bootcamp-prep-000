@@ -18,8 +18,8 @@ function nestedTarget() {
  function deepestChild() {
   var search = document.getElementById('grand-node').querySelectorAll('div'); 
  
-  for (let i = 0; i < search.length - 1; i++) {
-    if (search[i].innerHTML == "boo!")  {
+  for (let i = 0; i < search.length; i++) {
+    if (search[i] == search.length - 1)  {
       return search
     }
   } 
