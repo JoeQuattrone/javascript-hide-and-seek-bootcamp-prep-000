@@ -20,7 +20,7 @@ function nestedTarget() {
  
   for (let i = 0; i < search.length; i++) {
     if (search[i].innerHTML == "boo!")  {
-      return search[i]
+      return search
     }
   } 
 } 
